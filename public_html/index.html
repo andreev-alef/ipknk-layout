@@ -84,9 +84,9 @@
         <link rel="shortcut icon" href="./wp-content/themes/IPKv3/favicon.ico" />
         <style type="text/css" media="all">
             @import "./wp-content/plugins/wp-table-reloaded/css/plugin.css";
-            @import url("./wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.4");
-            /* ]]> */
-        </style><script type="text/javascript" src="./wp-content/themes/IPKv3/script.js"></script>
+            @import "./wp-content/plugins/wp-table-reloaded/css/datatables.css";
+        </style>
+        <script type="text/javascript" src="./wp-content/themes/IPKv3/script.js"></script>
     </head>
     <body class="home blog">
 
@@ -986,8 +986,8 @@
                                                                 <li><input type="radio" id="poll-answer-2" name="poll_1" value="2" /> <label for="poll-answer-2">Нет</label></li>
                                                                 <li><input type="radio" id="poll-answer-3" name="poll_1" value="3" /> <label for="poll-answer-3">Не знаю</label></li>
                                                             </ul><p style="text-align: center;"><input type="button" name="vote" value="   Голос   " class="Buttons" onclick="poll_vote(1);" onkeypress="poll_result(1);" /></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(1);
-                        return false;" onkeypress="poll_result(1);
-                                return false;" title="Просмотреть результаты опроса">Просмотреть результаты</a></p></div>
+                                                                    return false;" onkeypress="poll_result(1);
+                                                                            return false;" title="Просмотреть результаты опроса">Просмотреть результаты</a></p></div>
                                                     </form>
                                                 </div>
                                                 <div id="polls-1-loading" class="wp-polls-loading"><img src="./wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Загрузка ..." title="Загрузка ..." class="wp-polls-image" />&nbsp;Загрузка ...</div>
@@ -1130,42 +1130,42 @@
                                                 "' alt='' title='LiveInternet: показано число просмотров за 24" +
                                                 " часа, посетителей за 24 часа и за сегодня' " +
                                                 "border='0' width='88' height='31'><\/a>")
-                                    //--></script><!--/LiveInternet-->
+                                                //--></script><!--/LiveInternet-->
                                     <!-- Yandex.Metrika informer -->
                                     <a href="http://metrika.yandex.ru/stat/?id=14648209&amp;from=informer"
                                        target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/14648209/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
                                                                         style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try {
-                    Ya.Metrika.informer({i: this, id: 14648209, type: 0, lang: 'ru'});
-                    return false
-                } catch (e) {
-                }"/></a>
+                                                                                                    Ya.Metrika.informer({i: this, id: 14648209, type: 0, lang: 'ru'});
+                                                                                                    return false
+                                                                                                } catch (e) {
+                                                                                                }"/></a>
                                     <!-- /Yandex.Metrika informer -->
 
                                     <!-- Yandex.Metrika counter -->
                                     <script type="text/javascript">
-                                        (function (d, w, c) {
-                                            (w[c] = w[c] || []).push(function () {
-                                                try {
-                                                    w.yaCounter14648209 = new Ya.Metrika({id: 14648209, enableAll: true, webvisor: true});
-                                                } catch (e) {
-                                                }
-                                            });
+                                                (function (d, w, c) {
+                                                    (w[c] = w[c] || []).push(function () {
+                                                        try {
+                                                            w.yaCounter14648209 = new Ya.Metrika({id: 14648209, enableAll: true, webvisor: true});
+                                                        } catch (e) {
+                                                        }
+                                                    });
 
-                                            var n = d.getElementsByTagName("script")[0],
-                                                    s = d.createElement("script"),
-                                                    f = function () {
-                                                        n.parentNode.insertBefore(s, n);
-                                                    };
-                                            s.type = "text/javascript";
-                                            s.async = true;
-                                            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+                                                    var n = d.getElementsByTagName("script")[0],
+                                                            s = d.createElement("script"),
+                                                            f = function () {
+                                                                n.parentNode.insertBefore(s, n);
+                                                            };
+                                                    s.type = "text/javascript";
+                                                    s.async = true;
+                                                    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-                                            if (w.opera == "[object Opera]") {
-                                                d.addEventListener("DOMContentLoaded", f);
-                                            } else {
-                                                f();
-                                            }
-                                        })(document, window, "yandex_metrika_callbacks");
+                                                    if (w.opera == "[object Opera]") {
+                                                        d.addEventListener("DOMContentLoaded", f);
+                                                    } else {
+                                                        f();
+                                                    }
+                                                })(document, window, "yandex_metrika_callbacks");
                                     </script>
                                     <noscript><div><img src="//mc.yandex.ru/watch/14648209" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
                                     <!-- /Yandex.Metrika counter -->
@@ -1185,22 +1185,22 @@
             <script type='text/javascript' src='./wp-content/plugins/lightbox-plus/js/jquery.colorbox-min.js?ver=1.3.17.2'></script>
             <script type="text/javascript" >
 
-fold();
-function notify() {
+                                                fold();
+                                                function notify() {
 
-    var answer = confirm('');
-    if (!answer)
-        return false;
-    else
-        return true;
-}
+                                                    var answer = confirm('');
+                                                    if (!answer)
+                                                        return false;
+                                                    else
+                                                        return true;
+                                                }
 
             </script>
             <!-- Lightbox Plus v2.3 - 2011.08.11 - Message: -->
             <script type="text/javascript">
-                jQuery(document).ready(function ($) {
-                    $("a[rel*=lightbox]").colorbox({opacity: 0.8, current: " {current} из {total}", previous: ">", next: "<", close: "Закрыть"});
-                });
+                        jQuery(document).ready(function ($) {
+                            $("a[rel*=lightbox]").colorbox({opacity: 0.8, current: " {current} из {total}", previous: ">", next: "<", close: "Закрыть"});
+                        });
             </script>
             <!-- 60 queries. 2,142 seconds. -->
         </div>
