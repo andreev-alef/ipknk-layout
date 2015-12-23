@@ -1,0 +1,42 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+	clear: both;
+}
+
+.wp-pagenavi .pages {
+	background: none;
+	font-size: 12px;
+	width: auto;
+	margin-right: 10px;
+}
+
+.wp-pagenavi div {
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.wp-pagenavi div {
+	background: url("images/pageno.gif") no-repeat scroll 0 0 #FFFFFF;
+	width: 26px;
+}
+
+.wp-pagenavi div.first, .wp-pagenavi div.last {
+	width: 57px;
+	background: url("images/pagelast.gif") no-repeat scroll 0 0 #FFFFFF;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	color: #000;
+}
+
+.wp-pagenavi div.current {
+	font-weight: bold;
+}
