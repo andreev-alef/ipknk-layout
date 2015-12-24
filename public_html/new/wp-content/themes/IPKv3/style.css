@@ -80,7 +80,8 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         color: #595959;
     }
 
-    .ipk-postcontent  a:hover, .ipk-postcontent a.hover
+    .ipk-postcontent a:hover,
+    .ipk-postcontent a.hover
     {
         color: #061E32;
     }
@@ -98,7 +99,14 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         font-size: 22px;
     }
 
-    .ipk-postcontent h1 a, .ipk-postcontent h1 a:link, .ipk-postcontent h1 a:hover, .ipk-postcontent h1 a:visited, .ipk-blockcontent h1 a, .ipk-blockcontent h1 a:link, .ipk-blockcontent h1 a:hover, .ipk-blockcontent h1 a:visited
+    .ipk-postcontent h1 a,
+    .ipk-postcontent h1 a:link,
+    .ipk-postcontent h1 a:hover,
+    .ipk-postcontent h1 a:visited,
+    .ipk-blockcontent h1 a, 
+    .ipk-blockcontent h1 a:link, 
+    .ipk-blockcontent h1 a:hover, 
+    .ipk-blockcontent h1 a:visited
     {
         font-size: 22px;
     }
@@ -116,7 +124,14 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         font-size: 20px;
     }
 
-    .ipk-postcontent h2 a, .ipk-postcontent h2 a:link, .ipk-postcontent h2 a:hover, .ipk-postcontent h2 a:visited, .ipk-blockcontent h2 a, .ipk-blockcontent h2 a:link, .ipk-blockcontent h2 a:hover, .ipk-blockcontent h2 a:visited
+    .ipk-postcontent h2 a,
+    .ipk-postcontent h2 a:link,
+    .ipk-postcontent h2 a:hover, 
+    .ipk-postcontent h2 a:visited,
+    .ipk-blockcontent h2 a, 
+    .ipk-blockcontent h2 a:link,
+    .ipk-blockcontent h2 a:hover,
+    .ipk-blockcontent h2 a:visited
     {
         color: green;
         /*font-size: 20px;*/
@@ -591,7 +606,7 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         margin: -10px 0 0 -30px;
     }
 
-    .ipk-hmenu li:hover>ul
+    .ipk-hmenu li:hover > ul
     {
         visibility: visible;
         top: 100%;
