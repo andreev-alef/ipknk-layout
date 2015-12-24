@@ -454,9 +454,10 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         /*background-image: url('http://ipknk.ru/wp-content/uploads/2013/04/banner-копия.jpg') ;*/
         /*background-image: url('http://ipknk.ru/wp-content/uploads/2013/04/banners.png') ;*/
 
-        background-image: url('http://ipknk.ru/wp-content/uploads/2013/10/banners_leto.jpg') ;
-        /*background-image: url('images/textblock-bg.png');*/
-        background-image: url('http://ipknk.ru/wp-content/uploads/2014/12/banners_leto-1.jpg') ;
+/*        background-image: url('http://ipknk.ru/wp-content/uploads/2013/10/banners_leto.jpg') ;
+        background-image: url('http://ipknk.ru/wp-content/uploads/2014/12/banners_leto-1.jpg') ;*/
+        background-image: url('../../uploads/2013/10/banners_leto.jpg') ;
+        background-image: url('../../uploads/2014/12/banners_leto-1.jpg') ;
     }
     /* end TextBlock */
 
