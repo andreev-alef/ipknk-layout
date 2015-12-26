@@ -233,7 +233,7 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         width: 1000px;
         top: 0;
         cursor:default;
-        overflow:visible;
+        overflow: visible;
         left: 50%;
         margin-left: -500px;
     }
@@ -454,8 +454,8 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         /*background-image: url('http://ipknk.ru/wp-content/uploads/2013/04/banner-копия.jpg') ;*/
         /*background-image: url('http://ipknk.ru/wp-content/uploads/2013/04/banners.png') ;*/
 
-/*        background-image: url('http://ipknk.ru/wp-content/uploads/2013/10/banners_leto.jpg') ;
-        background-image: url('http://ipknk.ru/wp-content/uploads/2014/12/banners_leto-1.jpg') ;*/
+        /*        background-image: url('http://ipknk.ru/wp-content/uploads/2013/10/banners_leto.jpg') ;
+                background-image: url('http://ipknk.ru/wp-content/uploads/2014/12/banners_leto-1.jpg') ;*/
         background-image: url('../../uploads/2013/10/banners_leto.jpg') ;
         background-image: url('../../uploads/2014/12/banners_leto-1.jpg') ;
     }
@@ -618,13 +618,13 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         top: 0;
         left: 100%;
     }
-	
-	.ipk-hmenu li:nth-child(9)  li:hover>ul,
-	.ipk-hmenu li:nth-child(11)  li:hover>ul,
-	.ipk-hmenu li:nth-child(13)  li:hover>ul
+
+    .ipk-hmenu li:nth-child(9)  li:hover>ul,
+    .ipk-hmenu li:nth-child(11)  li:hover>ul,
+    .ipk-hmenu li:nth-child(13)  li:hover>ul
     {
-        background-color: #FF0000;
-		left: -100%;
+        /*background-color: #FF0000;*/
+        left: -100%;
     }
 
     .ipk-hmenu:after, .ipk-hmenu ul:after
@@ -642,11 +642,15 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         padding: 0 0 0 0;
     }
 
-   /* alef  */
-	.ipk-hmenu ul ul
+    /* alef  */
+    .ipk-hmenu ul ul
     {
         padding: 0px;
-        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: -10px;
+
     }
 
     /* menu structure */
@@ -816,15 +820,13 @@ Tags: fixed width, right sidebar, two columns, valid XHTML, widgets
         width: 300px;
 
         overflow: hidden;
-		/* background-image: url('images/subitem.png'); */
-		background-color: #007000;
-        
+        background-image: url('images/subitem.png'); 
         background-position: left top;
         background-repeat: repeat-x;
         border-width: 1px;
         border-style: solid;
-        /* border-color: #C7C7C7; */
-        border-color: rgba(0,0,0,0);
+        border-color: #C7C7C7; 
+        /*border-color: rgba(0,0,0,0);*/
         text-align: left;
         text-indent: 12px;
         text-decoration: none;
