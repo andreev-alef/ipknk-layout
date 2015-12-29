@@ -6,22 +6,46 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Доработка меню сайта</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            @import './new/wp-content/themes/IPKv3/fonts.css';
+            .root{
+                width: 600px;
+                margin-left: 200px;
+            }
+            .root h1{
+                font-family: 'Open Sans Light';
+            }
+            .root p{
+                /*font-family: 'Open Sans';*/
+                font-family: 'PT Sans';
+                font-size: 19px;
+            }
+            a{
+                color: #000090;
+            }
+            .bad{
+                color: #a00000;
+            }
+            .good{
+                color: #009000;
+            }
+        </style>
     </head>
     <body>
         <div class="root">
-            <h1>Доработка меню сайта</h1>
+            <h1>Доработка меню сайта <a href="http://ipknk.ru">http://ipknk.ru</a></h1>
             <p>
                 <b>Проблема:</b>
                 Крайние правые пункты меню выезжали за пределы экрана с включением нижней полосы прокрутки.
             </p>
             <p>
-                <a href="./old/">Дефектная версия</a>
+                <a class="bad" href="./old/">Дефектная версия</a>
             </p>
             <p>
-                <a href="./new/">Исправленная версия</a>
+                <a class="good" href="./new/">Исправленная версия</a>
             </p>
         </div>
     </body>
